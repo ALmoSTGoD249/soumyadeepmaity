@@ -1,0 +1,131 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #d1a2ff, #9effae); 
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  filter: blur(15px); 
+  z-index: 0;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  animation: titleFadeIn 1.5s ease-out;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #fcfcfc;
+  animation: textSlideIn 2s ease-out 0.5s;
+}
+
+.hero-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #d7c4ff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  animation: buttonPulse 1.5s ease-in-out infinite;
+}
+
+.button-link {
+  color: white; 
+  text-decoration: none; 
+  margin-right: 8px;
+}
+
+.hero-button:hover {
+  background-color: #83ffd6;
+  animation: buttonGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+    background-color: #d7c4ff;
+  }
+  50% {
+    transform: scale(1.05);
+    background-color: #b18cff;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #d7c4ff;
+  }
+}
+
+@keyframes buttonGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}

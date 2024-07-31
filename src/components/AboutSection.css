@@ -1,0 +1,57 @@
+.aboutsection {
+  padding: 2rem;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutsection h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  animation: titleFadeIn 1.5s ease-out;
+}
+
+.aboutsection p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  animation: textSlideIn 2s ease-out 0.5s forwards;
+}
+
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(25, 195, 155, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.aboutsection p:hover {
+  animation: textGlow 1.5s ease-in-out infinite;
+}
