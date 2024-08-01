@@ -1,7 +1,5 @@
-
 import React from 'react';
 import './PortfolioSection.css';
-
 
 import snakeGameImage from './snake-game-image.png';
 import songSiftRichImage from './song-sift-rich-image.png';
@@ -49,7 +47,7 @@ const PortfolioSection = () => {
       <div className="portfolio-items">
         {projects.map((project) => (
           <div className="portfolio-item" key={project.name}>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
               <img src={project.image} alt={project.name} className="portfolio-image" />
               <div className="portfolio-content">
                 <h3>{project.name}</h3>

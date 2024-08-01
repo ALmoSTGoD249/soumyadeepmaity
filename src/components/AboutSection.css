@@ -1,7 +1,7 @@
 .about-me-container {
     padding: 2rem;
     background: linear-gradient(270deg, #1e2a38, #6e7f8b);
-    text-align: center;
+    text-align: right;
     position: relative;
     overflow: hidden;
   }
