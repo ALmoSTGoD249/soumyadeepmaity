@@ -7,7 +7,6 @@ const AboutSection = () => {
     "A Web Developer . . .",
     "A Software Engineer . . .",
     "An Artist . . .",
-    "The ALmoSTGoD . . .",
   ];
   const [currentText, setCurrentText] = useState('');
   const [index, setIndex] = useState(0);
