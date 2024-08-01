@@ -1,6 +1,6 @@
 .aboutsection {
   padding: 2rem;
-  background: linear-gradient(270deg, #ffffff, #f0f0f0);
+  background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -8,14 +8,15 @@
 
 .aboutsection h1,
 .aboutsection h2 {
-  font-size: 2.5rem;
+  font-size: 3rem; /* Adjusted font size for smaller screens */
   margin-bottom: 1rem;
+  margin: 1.5rem;
   animation: titleFadeIn 1.5s ease-out;
 }
 
 .aboutsection p {
-  font-size: 1.2rem;
-  line-height: 1.6;
+  font-size: 1.25rem; /* Adjusted font size for smaller screens */
+  line-height: 1.6; /* Increased line height for readability */
   animation: textSlideIn 2s ease-out 0.5s forwards;
   color: #333;
 }
@@ -76,14 +77,15 @@
 .intro-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center; /* Centered items for smaller screens */
   margin-bottom: 2rem;
 }
 
 .intro-anim, .intro-content {
   flex: 1;
-  min-width: 300px;
-  margin: 1rem;
+  min-width: 250px; /* Adjusted for smaller screens */
+  margin: 0.5rem; /* Reduced margin for better spacing on mobile */
+  position: relative;
 }
 
 .intro-anim {
@@ -96,8 +98,9 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  font-size: 1.5rem;
-  position: relative;
+  font-size: 7.5rem; /* Adjusted font size for smaller screens */
+  margin-bottom: 2rem; /* Reduced margin for better spacing */
+  margin-top: 2rem; /* Reduced margin for better spacing */
   white-space: nowrap;
 }
 
@@ -107,7 +110,7 @@
 
 .cursor {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 7.5rem; /* Adjusted font size for smaller screens */
   color: #333;
   margin-left: 2px;
   animation: blink 0.7s infinite;
@@ -122,29 +125,31 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center; /* Centered items for smaller screens */
+  margin-top: 1rem; /* Reduced margin for better spacing */
 }
 
 .card {
   background: rgba(255, 255, 255, 0.9);
-  padding: 2rem;
+  padding: 1.5rem; /* Reduced padding for smaller screens */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1;
-  min-width: 300px;
-  margin: 1rem;
+  min-width: 280px; /* Adjusted for smaller screens */
+  margin: 0.5rem; /* Reduced margin for better spacing */
+  position: relative;
 }
 
 .skill-bar {
-  height: 10px;
+  height: 8px; /* Adjusted height for smaller screens */
   background-color: #d1a2ff;
-  border-radius: 5px;
+  border-radius: 4px; /* Adjusted radius for smaller screens */
 }
 
 .skill-item {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; /* Reduced margin for better spacing */
 }
 
 .education-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem; /* Reduced margin for better spacing */
 }

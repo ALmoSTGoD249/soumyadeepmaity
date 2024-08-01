@@ -2,7 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './AboutSection.css';
 
 const AboutSection = () => {
-  const texts = ["Soumyadeep Maity.....", "A Web developer.....", "A Software Engineer.....", "An Artist....", "A Visonary....."];
+  const texts = [
+    "Soumyadeep Maity . . .",
+    "A Web Developer . . .",
+    "A Software Engineer . . .",
+    "An Artist . . .",
+    "The ALmoSTGoD . . .",
+  ];
   const [currentText, setCurrentText] = useState('');
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -23,12 +29,12 @@ const AboutSection = () => {
           setCharIndex(charIndex + 1);
           setCurrentText(currentText + texts[index].charAt(charIndex));
         } else {
-          setTimeout(() => setIsDeleting(true), 2000);
+          setTimeout(() => setIsDeleting(true), 2500); // Increased pause duration
         }
       }
     };
 
-    const typingSpeed = isDeleting ? 30 : 70;
+    const typingSpeed = isDeleting ? 50 : 100; // Adjusted typing speed
     const typingTimer = setTimeout(handleTyping, typingSpeed);
 
     return () => clearTimeout(typingTimer);
@@ -36,7 +42,7 @@ const AboutSection = () => {
 
   return (
     <div className="aboutsection">
-      <div className="intro-row">
+      <div className="intro-anim-container">
         <div className="intro-anim pop-in">
           <h2>I am...</h2>
           <div className="intro-anim-text">
@@ -44,20 +50,19 @@ const AboutSection = () => {
             <span className="cursor">|</span>
           </div>
         </div>
-        <div className="intro-content pop-in">
-          <div className="intro-text">
-            <h1>About Me</h1>
-            <p>
-              Hi, I’m Soumyadeep Maity, a passionate web developer based in Kolkata, India. With a keen interest in cutting-edge technology and design, I’ve been working on various projects that showcase my skills and creativity.
+      </div>
+      
+      <div className="intro-content pop-in">
+        <h1>About Me</h1>
+        <p>
+          Hi, I’m Soumyadeep Maity, a passionate web developer based in Kolkata, India. With a keen interest in cutting-edge technology and design, I’ve been working on various projects that showcase my skills and creativity.
 
-              On my Instagram, you can catch glimpses of my daily life, interests, and the projects I’m working on. I share updates, insights, and occasional behind-the-scenes looks into my development journey.
+          On my Instagram, you can catch glimpses of my daily life, interests, and the projects I’m working on. I share updates, insights, and occasional behind-the-scenes looks into my development journey.
 
-              For a deeper dive into my work, visit my GitHub. There, you'll find repositories showcasing my latest projects, including web development work, AI chatbot projects, and other programming endeavors. My GitHub is a testament to my commitment to continuous learning and innovation in the tech space.
+          For a deeper dive into my work, visit my GitHub. There, you'll find repositories showcasing my latest projects, including web development work, AI chatbot projects, and other programming endeavors. My GitHub is a testament to my commitment to continuous learning and innovation in the tech space.
 
-              Feel free to connect with me through my social media profiles or explore my GitHub to see what I’m up to!
-            </p>
-          </div>
-        </div>
+          Feel free to connect with me through my social media profiles or explore my GitHub to see what I’m up to!
+        </p>
       </div>
 
       <div className="card-container">
