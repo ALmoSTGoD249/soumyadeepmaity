@@ -1,6 +1,6 @@
 .contact {
     padding: 60px 20px;
-    background-color: #ffffff;
+    background: linear-gradient(270deg, #f5f7fa, #c3cfe2); 
   }
   
   .contact h2 {

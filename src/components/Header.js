@@ -1,38 +1,25 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate instead of useHistory
 import './Header.css';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate(); // Initialize navigate function
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleLogoClick = () => {
+    navigate('/'); // Use navigate for redirection
+  };
+
   return (
     <header className="header">
-      <div className="logo">
-        <h1>Soumyadeep Maity</h1>
+      <div className="logo" onClick={handleLogoClick}>
+        <h1>© 2024 Soumyadeep Maity</h1>
       </div>
-      <nav className="desktop-nav">
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/projects">Work</Link></li>
-        </ul>
-      </nav>
-      <nav className="mobile-nav">
-        <div className="hamburger" onClick={toggleMenu}>
-          <div className={`line ${menuOpen ? 'open' : ''}`}></div>
-          <div className={`line ${menuOpen ? 'open' : ''}`}></div>
-          <div className={`line ${menuOpen ? 'open' : ''}`}></div>
-        </div>
-        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-          <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
-          <li><Link to="/projects" onClick={toggleMenu}>Work</Link></li>
-        </ul>
-      </nav>
+      {/* Add your nav elements here */}
     </header>
   );
 };

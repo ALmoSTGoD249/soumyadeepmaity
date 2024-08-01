@@ -1,155 +1,77 @@
-.aboutsection {
-  padding: 2rem;
-  background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.aboutsection h1,
-.aboutsection h2 {
-  font-size: 3rem; /* Adjusted font size for smaller screens */
-  margin-bottom: 1rem;
-  margin: 1.5rem;
-  animation: titleFadeIn 1.5s ease-out;
-}
-
-.aboutsection p {
-  font-size: 1.25rem; /* Adjusted font size for smaller screens */
-  line-height: 1.6; /* Increased line height for readability */
-  animation: textSlideIn 2s ease-out 0.5s forwards;
-  color: #333;
-}
-
-@keyframes titleFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
+.about-me-container {
+    padding: 2rem;
+    background: linear-gradient(270deg, #1e2a38, #6e7f8b);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  .about-me-container h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    animation: titleFadeIn 1.5s ease-out;
+    color: #ffffff;
+    margin-top: 10rem;
   }
-}
-
-@keyframes textSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+  
+  .about-me-container p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    animation: textSlideIn 2s ease-out 0.5s forwards;
+    color: #ffffff;
+    margin-bottom: 10rem;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  @keyframes titleFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-}
-
-@keyframes textGlow {
-  0% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  
+  @keyframes textSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-  50% {
-    text-shadow: 0 0 15px rgba(25, 195, 155, 0.8);
+  
+  @keyframes textGlow {
+    0% {
+      text-shadow: 0 0 5px rgb(255, 255, 255);
+    }
+    50% {
+      text-shadow: 0 0 15px rgb(160, 255, 236);
+    }
+    100% {
+      text-shadow: 0 0 5px rgb(255, 255, 255);
+    }
   }
-  100% {
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  
+  .about-me-container p:hover {
+    animation: textGlow 1.5s ease-in-out infinite;
   }
-}
-
-.aboutsection p:hover {
-  animation: textGlow 1.5s ease-in-out infinite;
-}
-
-.pop-in {
-  animation: popIn 1.5s ease-out forwards;
-}
-
-@keyframes popIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.8);
+  
+  .pop-in {
+    animation: popIn 1.5s ease-out forwards;
   }
-  100% {
-    opacity: 1;
-    transform: scale(1);
+  
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
-}
-
-.intro-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Centered items for smaller screens */
-  margin-bottom: 2rem;
-}
-
-.intro-anim, .intro-content {
-  flex: 1;
-  min-width: 250px; /* Adjusted for smaller screens */
-  margin: 0.5rem; /* Reduced margin for better spacing on mobile */
-  position: relative;
-}
-
-.intro-anim {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.intro-anim-text {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  font-size: 7.5rem; /* Adjusted font size for smaller screens */
-  margin-bottom: 2rem; /* Reduced margin for better spacing */
-  margin-top: 2rem; /* Reduced margin for better spacing */
-  white-space: nowrap;
-}
-
-.typed-text {
-  display: inline-block;
-}
-
-.cursor {
-  font-weight: bold;
-  font-size: 7.5rem; /* Adjusted font size for smaller screens */
-  color: #333;
-  margin-left: 2px;
-  animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Centered items for smaller screens */
-  margin-top: 1rem; /* Reduced margin for better spacing */
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 1.5rem; /* Reduced padding for smaller screens */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex: 1;
-  min-width: 280px; /* Adjusted for smaller screens */
-  margin: 0.5rem; /* Reduced margin for better spacing */
-  position: relative;
-}
-
-.skill-bar {
-  height: 8px; /* Adjusted height for smaller screens */
-  background-color: #d1a2ff;
-  border-radius: 4px; /* Adjusted radius for smaller screens */
-}
-
-.skill-item {
-  margin-bottom: 1rem; /* Reduced margin for better spacing */
-}
-
-.education-item {
-  margin-bottom: 1rem; /* Reduced margin for better spacing */
-}
+  
