@@ -11,7 +11,13 @@ const AboutPage = () => {
           <img src={profilepic} alt="Profile" className="profile-pic" />
           <div className="intro-text">
             <h1>About Me</h1>
-            <p>I’m Soumyadeep Maity, a passionate web developer based in Kolkata, India. With a keen interest in cutting-edge technology and design, I’ve been working on various projects that showcase my skills and creativity. I share updates, insights, and occasional behind-the-scenes looks into my development journey. I love listening and playing music, watching good cinema, and I am also passionate about video games. My favorite sport is motorsports, and I am a big fan of Lewis Hamilton.</p>
+            <p>Hi, I’m Soumyadeep Maity, a passionate web developer based in Kolkata, India. With a keen interest in cutting-edge technology and design, I’ve been working on various projects that showcase my skills and creativity.
+
+On my Instagram, you can catch glimpses of my daily life, interests, and the projects I’m working on. I share updates, insights, and occasional behind-the-scenes looks into my development journey.
+
+For a deeper dive into my work, visit my GitHub. There, you'll find repositories showcasing my latest projects, including web development work, AI chatbot projects, and other programming endeavors. My GitHub is a testament to my commitment to continuous learning and innovation in the tech space.
+
+Feel free to connect with me through my social media profiles or explore my GitHub to see what I’m up to!</p>
           </div>
         </div>
       </section>
@@ -70,44 +76,6 @@ const AboutPage = () => {
           <div className="education-item">
             <h3>Secondary School</h3>
             <p>Kendriya Vidyalaya Alipore, Kolkata, Percentage: 73.4%</p>
-          </div>
-        </section>
-
-        <section className="card contact-info pop-in">
-          <h2>Contact Me</h2>
-          <div className="contact-info">
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/soumyadeep-maity-3913101b4/" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-linkedin"></i> LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/almostgod7/" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-instagram"></i> Instagram
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com/Soumyad78115753" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-x"></i> X (formerly Twitter)
-                </a>
-              </li>
-              <li>
-                <a href="tel:+919830218177">
-                  <i className="fas fa-phone"></i> +91 98302 18177
-                </a>
-              </li>
-              <li>
-                <a href="mailto:soumadeepmaity2@gmail.com">
-                  <i className="fas fa-envelope"></i> soumadeepmaity2@gmail.com
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/ALmoSTGoD249" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-github"></i> GitHub
-                </a>
-              </li>
-            </ul>
           </div>
         </section>
       </div>

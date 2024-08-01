@@ -13,13 +13,8 @@ const ContactSection = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/almostgod7/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-instagram"></i> Instagram
-            </a>
-          </li>
-          <li>
-            <a href="https://x.com/Soumyad78115753" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-x"></i> X (formerly Twitter)
+            <a href="https://github.com/ALmoSTGoD249" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i> GitHub
             </a>
           </li>
           <li>
@@ -33,8 +28,13 @@ const ContactSection = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/ALmoSTGoD249" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github"></i> GitHub
+            <a href="https://www.instagram.com/almostgod7/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/Soumyad78115753" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-x"></i> X (formerly Twitter)
             </a>
           </li>
         </ul>
