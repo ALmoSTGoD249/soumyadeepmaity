@@ -10,7 +10,7 @@ import hagridVaImage from './hagrid-va-image.png';
 const projects = [
   {
     name: 'Snake Game',
-    description: 'A classic Snake Game built with JavaScript.',
+    description: 'A classic Snake Game built with PyGames.',
     link: 'https://github.com/ALmoSTGoD249/Snake-Game',
     image: snakeGameImage,
   },
