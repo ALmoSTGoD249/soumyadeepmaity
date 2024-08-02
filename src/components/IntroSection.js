@@ -8,6 +8,7 @@ const IntroSection = () => {
     "A Web Developer . . .",
     "A Software Engineer . . .",
     "An Artist . . .",
+    "BATMAN . . ."
   ];
   const [currentText, setCurrentText] = useState('');
   const [index, setIndex] = useState(0);

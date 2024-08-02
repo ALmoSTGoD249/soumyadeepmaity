@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
 .contact {
   padding: 60px 20px;
-  background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
+  background: inear-gradient(270deg, #1e2a38, #6e7f8b);
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
 }
 
 .contact h2 {

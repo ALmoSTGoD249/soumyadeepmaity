@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
 .skills-and-education-section {
   display: flex;
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
-  background: linear-gradient(270deg, #1e2a38, #6e7f8b);
+  background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
 }
 
 .card {
@@ -76,12 +80,12 @@
 
 @media (max-width: 768px) {
   .skills-and-education-section {
-    flex-direction: column; /* Change to column layout for mobile */
-    align-items: center; /* Center items in column layout */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .card {
-    width: 90%; /* Adjust width for better fit on mobile */
-    margin: 2rem 0; /* Adjust margins for better spacing on mobile */
+    width: 90%; 
+    margin: 2rem 0; 
   }
 }

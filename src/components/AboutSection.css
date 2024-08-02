@@ -1,77 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
 .about-me-container {
     padding: 2rem;
-    background: linear-gradient(270deg, #1e2a38, #6e7f8b);
+    background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
     text-align: right;
     position: relative;
     overflow: hidden;
-  }
-  
-  .about-me-container h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+
+.about-me-container h1 {
     font-size: 5rem;
     margin-bottom: 2rem;
     animation: titleFadeIn 1.5s ease-out;
-    color: #ffffff;
-    margin-top: 10rem;
-  }
-  
-  .about-me-container p {
+    color: #000000;
+    margin-top: 5rem;
+}
+
+.about-me-container p {
     font-size: 1.25rem;
     line-height: 1.6;
     animation: textSlideIn 2s ease-out 0.5s forwards;
+    color: #000000;
+    margin-bottom: 10rem;
+}
+
+.download-cv-button {
+    background: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+    border-radius:10cap;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.download-cv-button:hover {
+    background-color: #000000;
     color: #ffffff;
     margin-bottom: 10rem;
-  }
-  
-  @keyframes titleFadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes textSlideIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes textGlow {
-    0% {
-      text-shadow: 0 0 5px rgb(255, 255, 255);
-    }
-    50% {
-      text-shadow: 0 0 15px rgb(160, 255, 236);
-    }
-    100% {
-      text-shadow: 0 0 5px rgb(255, 255, 255);
-    }
-  }
-  
-  .about-me-container p:hover {
-    animation: textGlow 1.5s ease-in-out infinite;
-  }
-  
-  .pop-in {
-    animation: popIn 1.5s ease-out forwards;
-  }
-  
-  @keyframes popIn {
-    0% {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  
+}
+
+/* Animation Keyframes */
+@keyframes titleFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes textSlideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

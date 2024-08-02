@@ -12,6 +12,7 @@ const AboutSection = () => {
 
         Feel free to explore my GitHub to see what I’m up to!
       </p>
+      <a href="/Soumyadeep Maity-1.pdf" download className="download-cv-button">Download CV</a>
     </div>
   );
 };

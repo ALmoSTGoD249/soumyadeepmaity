@@ -1,27 +1,27 @@
-/* Import a bolder font from Google Fonts or use a local font */
 @import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap');
 
 .aboutsection {
-  padding: 1rem; /* Adjusted padding for smaller screens */
-  background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
+  padding: 1rem; 
+  background: linear-gradient(270deg, #6e7f8b, #1e2a38 );
   text-align: center;
   position: relative;
   overflow: hidden;
-  font-family: 'Anton', sans-serif; /* Added bold font */
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
 }
 
 .aboutsection h1 {
-  font-size: 1.5rem; /* Adjusted font size */
-  margin-bottom: 0.5rem; /* Adjusted margin */
+  font-size: 1.5rem; 
+  margin-bottom: 0.5rem;
   animation: titleFadeIn 1.5s ease-out;
 }
 
 .aboutsection p {
-  font-size: 1rem; /* Adjusted font size */
-  line-height: 1.4; /* Adjusted line height */
+  font-size: rem; 
+  line-height: 1.4;
   animation: textSlideIn 2s ease-out 0.5s forwards;
-  color: #333;
-  font-family: 'Anton', sans-serif; /* Added bold font */
+  color: #ffffff;
+  font-family: 'Anton', sans-serif; 
 }
 
 @keyframes titleFadeIn {
@@ -51,7 +51,7 @@
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   }
   50% {
-    text-shadow: 0 0 10px rgba(25, 195, 155, 0.8); /* Adjusted glow size */
+    text-shadow: 0 0 10px rgba(25, 195, 155, 0.8); 
   }
   100% {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -89,20 +89,23 @@
   min-width: 200px; /* Adjusted min-width */
   margin-left: 2rem; /* Adjusted margin */
   position: relative;
+  color: #ffffff;
 }
 
 .intro-anim {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 5rem; /* Adjusted margin */
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  margin-left: 3rem; /* Adjusted margin */
 }
 
 .intro-anim-text {
   display: flex;
   align-items: center;
   overflow: hidden;
-  margin-left: 1rem; /* Adjusted margin */
+  margin-left: 3rem; /* Adjusted margin */
   font-size: 5rem; /* Adjusted font size */
   margin-bottom: 5rem; /* Adjusted margin */
   white-space: nowrap;
@@ -116,7 +119,7 @@
 .cursor {
   font-weight: bold;
   font-size: 5rem; /* Adjusted font size */
-  color: #333;
+  color: #ffffff;
   margin-left: 2px;
   animation: blink 0.7s infinite;
   font-family: 'Anton', sans-serif; /* Added bold font */
@@ -154,10 +157,11 @@
 
   .intro-anim {
     margin-top: 3rem;
+    font-size: 3rem;
   }
 
   .intro-anim-text {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 8rem; /* Adjusted margin for mobile */
   }
 
@@ -186,6 +190,7 @@
 
   .intro-anim {
     margin-top: 2rem;
+    font-size: 0.75rem;
   }
 
   .intro-anim-text {
