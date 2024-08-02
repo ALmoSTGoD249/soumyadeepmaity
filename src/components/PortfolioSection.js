@@ -6,6 +6,8 @@ import songSiftRichImage from './song-sift-rich-image.png';
 import songSiftGuiImage from './song-sift-gui-image.png';
 import hagridChatbotImage from './hagrid-chatbot-image.png';
 import hagridVaImage from './hagrid-va-image.png';
+import portfolio from './portfolio.png';
+import kunalportfolio from './kunalportfolio.png';
 
 const projects = [
   {
@@ -37,6 +39,18 @@ const projects = [
     description: 'Voice Assistant built with advanced features.',
     link: 'https://github.com/ALmoSTGoD249/Hagrid-VA',
     image: hagridVaImage,
+  },
+  {
+    name: 'My Portfolio',
+    description: 'Using React.js.',
+    link: 'https://github.com/ALmoSTGoD249/soumyadeepmaity',
+    image: portfolio,
+  },
+  {
+    name: 'HTML Project',
+    description: 'Advanced HTML, CSS and JavaScript',
+    link: 'https://kunaldutta116.github.io/',
+    image: kunalportfolio,
   },
 ];
 

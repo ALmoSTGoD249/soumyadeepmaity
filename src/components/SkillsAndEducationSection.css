@@ -83,11 +83,11 @@
 }
 
 .circle.python {
-  background: conic-gradient(#76c7c0 0% 80%, #ddd 80% 100%);
+  background: conic-gradient(#76c7c0 0% 80%, #ddd 85% 100%);
 }
 
 .circle.java {
-  background: conic-gradient(#76c7c0 0% 75%, #ddd 75% 100%);
+  background: conic-gradient(#76c7c0 0% 75%, #ddd 85% 100%);
 }
 
 .circle.cpp {

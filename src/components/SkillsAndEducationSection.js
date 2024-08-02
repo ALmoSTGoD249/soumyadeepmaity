@@ -48,7 +48,7 @@ const SkillsAndEducationSection = () => {
               <div className="mask half">
                 <div className="fill"></div>
               </div>
-              <div className="inside-circle">80%</div>
+              <div className="inside-circle">85%</div>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const SkillsAndEducationSection = () => {
               <div className="mask half">
                 <div className="fill"></div>
               </div>
-              <div className="inside-circle">75%</div>
+              <div className="inside-circle">85%</div>
             </div>
           </div>
         </div>
