@@ -8,7 +8,6 @@ const IntroSection = () => {
     "A Web Developer . . .",
     "A Software Engineer . . .",
     "An Artist . . .",
-    "BATMAN . . ."
   ];
   const [currentText, setCurrentText] = useState('');
   const [index, setIndex] = useState(0);
@@ -30,12 +29,12 @@ const IntroSection = () => {
           setCharIndex(charIndex + 1);
           setCurrentText(currentText + texts[index].charAt(charIndex));
         } else {
-          setTimeout(() => setIsDeleting(true), 2500); // Increased pause duration
+          setTimeout(() => setIsDeleting(true), 2500); 
         }
       }
     };
 
-    const typingSpeed = isDeleting ? 50 : 100; // Adjusted typing speed
+    const typingSpeed = isDeleting ? 50 : 100; 
     const typingTimer = setTimeout(handleTyping, typingSpeed);
 
     return () => clearTimeout(typingTimer);
