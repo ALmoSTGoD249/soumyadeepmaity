@@ -106,7 +106,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  margin-left: 3rem; /* Adjusted margin */
+  margin-left: 0.5rem; /* Adjusted margin */
   font-size: 4.5rem; /* Adjusted font size */
   margin-bottom: 6rem; /* Adjusted margin */
   white-space: nowrap;
