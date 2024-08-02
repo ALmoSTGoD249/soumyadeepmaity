@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@700&display=swap');
 
 .contact {
   padding: 60px 20px;
   background: inear-gradient(270deg, #1e2a38, #6e7f8b);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: large;
 }
 

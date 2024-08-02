@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@700&display=swap');
 
 .about-me-container {
     padding: 2rem;
@@ -6,7 +6,7 @@
     text-align: right;
     position: relative;
     overflow: hidden;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: large;
 }
 

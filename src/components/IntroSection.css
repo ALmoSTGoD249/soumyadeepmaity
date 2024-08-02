@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@700&display=swap');
 
 .aboutsection {
   padding: 1rem; 
@@ -6,8 +6,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  font-family: 'Roboto Mono', monospace;
-  font-size: large;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .aboutsection h1 {
@@ -21,7 +20,7 @@
   line-height: 1.4;
   animation: textSlideIn 2s ease-out 0.5s forwards;
   color: #ffffff;
-  font-family: 'Anton', sans-serif; 
+  font-family: 'Bebas Neue', sans-serif; 
 }
 
 @keyframes titleFadeIn {
