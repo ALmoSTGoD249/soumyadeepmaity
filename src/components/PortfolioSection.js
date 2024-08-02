@@ -43,7 +43,7 @@ const projects = [
   {
     name: 'My Portfolio',
     description: 'Using React.js.',
-    link: 'https://github.com/ALmoSTGoD249/soumyadeepmaity',
+    link: 'https://github.com/ALmoSTGoD249',
     image: portfolio,
   },
   {
