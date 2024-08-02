@@ -4,7 +4,7 @@ import './AboutSection.css';
 const AboutSection = () => {
   return (
     <div className="about-me-container pop-in">
-      <h1>About Me</h1>
+      <h1>ABOUT ME</h1>
       <p>
         I'm a passionate web developer based in Kolkata, India, with a keen interest in cutting-edge technology and design. I’ve worked on various projects that showcase my skills and creativity.
 
@@ -12,7 +12,7 @@ const AboutSection = () => {
 
         Feel free to explore my GitHub to see what I’m up to!
       </p>
-      <a href="/Soumyadeep Maity-1.pdf" download className="download-cv-button">Download CV</a>
+      <a href="/Soumyadeep Maity-1.pdf" download className="download-cv-button">download CV</a>
     </div>
   );
 };
