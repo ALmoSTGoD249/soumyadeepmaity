@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.skills-and-education-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.card {
+  width: 45%;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.skills-card h2,
+.education-card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #76c7c0;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.skill-item,
+.education-item {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+}
+
+.skill-item h3,
+.education-item h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 0 1rem 0 0;
+  flex: 1;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  color: #76c7c0;
+  margin-right: 1rem;
+}
+
+.circle-wrap {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.circle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.circle.js {
+  background: conic-gradient(#76c7c0 0% 90%, #ddd 90% 100%);
+}
+
+.circle.react {
+  background: conic-gradient(#76c7c0 0% 85%, #ddd 85% 100%);
+}
+
+.circle.python {
+  background: conic-gradient(#76c7c0 0% 80%, #ddd 80% 100%);
+}
+
+.circle.java {
+  background: conic-gradient(#76c7c0 0% 75%, #ddd 75% 100%);
+}
+
+.circle.cpp {
+  background: conic-gradient(#76c7c0 0% 70%, #ddd 70% 100%);
+}
+
+.circle .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 3rem, 3rem, 1.5rem);
+}
+
+.circle .mask .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #76c7c0;
+  border-radius: 50%;
+}
+
+.circle.js .mask .fill {
+  transform: rotate(324deg);
+}
+
+.circle.react .mask .fill {
+  transform: rotate(306deg);
+}
+
+.circle.python .mask .fill {
+  transform: rotate(288deg);
+}
+
+.circle.java .mask .fill {
+  transform: rotate(270deg);
+}
+
+.circle.cpp .mask .fill {
+  transform: rotate(252deg);
+}
+
+.circle .inside-circle {
+  width: 80%;
+  height: 80%;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.pop-in {
+  animation: pop-in 0.5s ease-out forwards;
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-and-education-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 2rem 0;
+  }
+}

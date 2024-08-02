@@ -3,7 +3,7 @@ import IntroSection from '../components/IntroSection';
 import AboutSection from '../components/AboutSection';
 import PortfolioSection from '../components/PortfolioSection'; 
 import ContactSection from '../components/ContactSection';
-import SkillsAndEducationSection from '../components/SkillsAndEducaionSection';
+import SkillsAndEducationSection from '../components/SkillsAndEducationSection';
 
 
 const Home = () => {
