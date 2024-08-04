@@ -8,6 +8,7 @@ import hagridChatbotImage from './hagrid-chatbot-image.png';
 import hagridVaImage from './hagrid-va-image.png';
 import portfolio from './portfolio.png';
 import kunalportfolio from './kunalportfolio.png';
+import cow from './cowweb.png';
 
 const projects = [
   {
