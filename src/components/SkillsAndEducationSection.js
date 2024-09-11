@@ -33,15 +33,15 @@ const SkillsAndEducationSection = () => {
         <h2>Education</h2>
         <div className="education-item">
           <h3>B.Tech in Computer Science and Business System</h3>
-          <p>Sister Nivedita University, GPA: 7.4 (Ongoing)</p>
+          <p>Sister Nivedita University</p>
         </div>
         <div className="education-item">
           <h3>Higher Secondary</h3>
-          <p>Kendriya Vidyalaya Alipore, Kolkata, Percentage: 66.9%</p>
+          <p>Kendriya Vidyalaya Alipore, Kolkata</p>
         </div>
         <div className="education-item">
           <h3>Secondary School</h3>
-          <p>Kendriya Vidyalaya Alipore, Kolkata, Percentage: 73.4%</p>
+          <p>Kendriya Vidyalaya Alipore, Kolkata</p>
         </div>
       </div>
     </div>
