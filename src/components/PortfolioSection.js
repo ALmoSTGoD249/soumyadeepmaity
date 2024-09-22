@@ -9,6 +9,7 @@ import hagridVaImage from './hagrid-va-image.png';
 import portfolio from './portfolio.png';
 import kunalportfolio from './kunalportfolio.png';
 import cow from './cowweb.png';
+import recommend from './recommend.png';
 
 const projects = [
   {
@@ -52,6 +53,12 @@ const projects = [
     description: 'Advanced HTML, CSS and JavaScript',
     link: 'https://kunaldutta116.github.io/',
     image: kunalportfolio,
+  },
+  {
+    name: 'Product Management and recommendation System',
+    description: 'Python, MySQL, HTML, CSS and JavaScript',
+    link: 'https://github.com/ALmoSTGoD249/recommendationsystem',
+    image: recommend,
   },
 ];
 
