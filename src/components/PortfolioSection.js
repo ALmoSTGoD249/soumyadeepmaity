@@ -10,6 +10,7 @@ import portfolio from './portfolio.png';
 import kunalportfolio from './kunalportfolio.png';
 import cow from './cowweb.png';
 import recommend from './recommend.png';
+import stock from './stock.png';
 
 const projects = [
   {
@@ -59,6 +60,12 @@ const projects = [
     description: 'Python, MySQL, HTML, CSS and JavaScript',
     link: 'https://github.com/ALmoSTGoD249/recommendationsystem',
     image: recommend,
+  },
+  {
+    name: 'Stock Price Prediction',
+    description: 'Python, TensorFLow',
+    link: 'https://github.com/ALmoSTGoD249/Stock_Price_Prediction.git',
+    image: stock,
   },
 ];
 
