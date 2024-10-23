@@ -12,7 +12,7 @@ const AboutSection = () => {
 
         Feel free to explore my GitHub to see what I’m up to!
       </p>
-      <a href="/Soumyadeep Maity-2.pdf" download className="download-cv-button">download CV</a>
+      <a href="/Soumyadeep Maity-3.pdf" download className="download-cv-button">download CV</a>
     </div>
   );
 };
